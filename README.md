@@ -9,7 +9,7 @@
 2. generate Json validator
 3. server.js 
 
-### 4 KMS를 활용한 prod 적용방법
+### 4 KMS(Key Management Service on AWS)
 1. Create Policy
 2. Create IAM USER
 3. Create Master Key and USER
