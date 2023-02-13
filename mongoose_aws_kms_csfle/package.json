@@ -1,0 +1,25 @@
+{
+    "name": "test",
+    "version": "1.0.0",
+    "description": "mongodb test",
+    "main": "src/server.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "node src/server.js",
+        "dev": "nodemon src/server.js"
+    },
+    "author": "dkkim",
+    "license": "ISC",
+    "dependencies": {
+        "axios": "^0.26.0",
+        "express": "^4.17.3",
+        "fs": "^0.0.1-security",
+        "mongodb-client-encryption": "^2.0.0",
+        "mongoose": "^6.2.4",
+        "uuid-base64": "^1.0.0",
+        "uuid-mongodb": "^2.5.0"
+    },
+    "devDependencies": {
+        "nodemon": "^2.0.15"
+    }
+}
